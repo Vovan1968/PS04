@@ -39,7 +39,7 @@ def search_wikipedia():
     query = input("Введите запрос для поиска на Википедии: ")
 
     # Указываем путь к драйверу браузера
-    #driver_path = "path/to/chromedriver"  # Замените на путь к вашему драйверу
+    
     driver = webdriver.Chrome()
 
     try:
